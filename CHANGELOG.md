@@ -55,6 +55,7 @@ and since Bareos version 20 this project adheres to [Semantic Versioning](https:
 - Adapt Python DIR and SD plugin Baseclasses to the modernized Python plugin API [PR #923]
 - Fixed all compiler warnings (on our default warning level) [PR #948]
 - Log LDAP info error (e.g. expired SSL cert error) [PR #956]
+- fix crash in "status scheduler" command when job->client is unset [PR #965]
 
 ### Added
 - systemtests: make database credentials configurable [PR #950]
